@@ -3,8 +3,19 @@ body{
   font-family: 'Nunito', sans-serif;
 }
 
-.title{
+.rotated{
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
 
+.hide-input{
+  float: right;
+  font-size: 25px;
+  margin-top: -10px;
+  transition-duration: 0.5s;
 }
 
 .wrapper{
@@ -26,6 +37,7 @@ body{
   font-weight: 300;
   padding: 7px 12px;
   background: #121212;
+  border-radius: 5px;
   border: none;
   color: #eee
 }
